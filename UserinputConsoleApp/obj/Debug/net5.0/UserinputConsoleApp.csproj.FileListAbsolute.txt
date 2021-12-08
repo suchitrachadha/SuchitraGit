@@ -1,0 +1,16 @@
+C:\Users\suchi\mylocalproject\UserinputConsoleApp\bin\Debug\net5.0\UserinputConsoleApp.exe
+C:\Users\suchi\mylocalproject\UserinputConsoleApp\bin\Debug\net5.0\UserinputConsoleApp.deps.json
+C:\Users\suchi\mylocalproject\UserinputConsoleApp\bin\Debug\net5.0\UserinputConsoleApp.runtimeconfig.json
+C:\Users\suchi\mylocalproject\UserinputConsoleApp\bin\Debug\net5.0\UserinputConsoleApp.runtimeconfig.dev.json
+C:\Users\suchi\mylocalproject\UserinputConsoleApp\bin\Debug\net5.0\UserinputConsoleApp.dll
+C:\Users\suchi\mylocalproject\UserinputConsoleApp\bin\Debug\net5.0\ref\UserinputConsoleApp.dll
+C:\Users\suchi\mylocalproject\UserinputConsoleApp\bin\Debug\net5.0\UserinputConsoleApp.pdb
+C:\Users\suchi\mylocalproject\UserinputConsoleApp\obj\Debug\net5.0\UserinputConsoleApp.csproj.AssemblyReference.cache
+C:\Users\suchi\mylocalproject\UserinputConsoleApp\obj\Debug\net5.0\UserinputConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suchi\mylocalproject\UserinputConsoleApp\obj\Debug\net5.0\UserinputConsoleApp.AssemblyInfoInputs.cache
+C:\Users\suchi\mylocalproject\UserinputConsoleApp\obj\Debug\net5.0\UserinputConsoleApp.AssemblyInfo.cs
+C:\Users\suchi\mylocalproject\UserinputConsoleApp\obj\Debug\net5.0\UserinputConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\suchi\mylocalproject\UserinputConsoleApp\obj\Debug\net5.0\UserinputConsoleApp.dll
+C:\Users\suchi\mylocalproject\UserinputConsoleApp\obj\Debug\net5.0\ref\UserinputConsoleApp.dll
+C:\Users\suchi\mylocalproject\UserinputConsoleApp\obj\Debug\net5.0\UserinputConsoleApp.pdb
+C:\Users\suchi\mylocalproject\UserinputConsoleApp\obj\Debug\net5.0\UserinputConsoleApp.genruntimeconfig.cache
