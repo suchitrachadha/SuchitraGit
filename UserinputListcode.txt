@@ -1,26 +1,13 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Text;
-
-/*
- Windows Console Application using List<> to capture and display User Information 
- Created by: Suchitra
- Date: 10 December 2022
-*/
-
-
-namespace UserInputListConsoleApp
-{
-    using System;
-    using System.Collections.Generic;
-    // Simple business object. A UserId is used to identify the type of user
-    // but the user name can change.
-    public class User: IEquatable<User>
+// Simple business object. A UserId is used to identify the type of user
+// but the user name can change.
+public class User: IEquatable<User>
     {
         public string UserName { get; set; }
+
         public int UserId { get; set; }
+
         public override string ToString()
         {
             return "User ID: " + UserId + "   Name: " + UserName;
@@ -103,6 +90,3 @@ public class Example
         {
             Console.WriteLine(singleUser);
         }
-}
-}
-}
