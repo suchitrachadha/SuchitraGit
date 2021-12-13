@@ -1,26 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Text;
-
+// Simple business object. A UserId is used to identify the type of user
+// but the user name can change.
 /*
- Windows Console Application using List<> to capture and display User Information 
- Created by: Suchitra
- Date: 10 December 2022
+**************************************************************************************
+   Created static List of names on 10 december 2021 by Suchitra
+   Modified to include Dynamic List of names on 13 december 2021 by Suchitra
+***************************************************************************************
 */
 
 
-namespace UserInputListConsoleApp
-{
-    using System;
-    using System.Collections.Generic;
-    // Simple business object. A UserId is used to identify the type of user
-    // but the user name can change.
-    public class User: IEquatable<User>
+public class User: IEquatable<User>
     {
         public string UserName { get; set; }
+
         public int UserId { get; set; }
+
         public override string ToString()
         {
             return "User ID: " + UserId + "   Name: " + UserName;
@@ -43,20 +38,34 @@ namespace UserInputListConsoleApp
         }
     // Should also override == and != operators.
     }
-public class Example
+public class Particpant
 {
     public static void Main()
     {
         // Create a list of users.
         List<User> users = new List<User>();
+        int No_Names;
+
+        Console.WriteLine("Enter Number of Names");
+        No_Names = int.Parse(Console.ReadLine());
+
+       // Capturing names dynamically 
+        for(int i = 1; i <= No_Names; i++)
+        {
+              Console.WriteLine($"Enter User Name{i}");
+              users.Add(new User() {UserName = Console.ReadLine(), UserId = 1000 + i});  
+
+
+        }
 
         // Add users to the list.
-        users.Add(new User() { UserName = "Suchitra", UserId = 1000 });
+        /*users.Add(new User() { UserName = "Suchitra", UserId = 1000 });
         users.Add(new User() { UserName = "Annie", UserId = 1001 });
         users.Add(new User() { UserName = "Malin", UserId = 1012 });
         users.Add(new User() { UserName = "Karin", UserId = 1023 });
         users.Add(new User() { UserName = "Pernilla", UserId = 1005 });
         users.Add(new User() { UserName = "Lena", UserId = 1007 });
+        */
 
         // Write out the users in the list. This will call the overridden ToString method
         // in the User class.
@@ -103,6 +112,5 @@ public class Example
         {
             Console.WriteLine(singleUser);
         }
-}
-}
+    }
 }
