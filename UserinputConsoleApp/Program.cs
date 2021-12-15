@@ -101,12 +101,5 @@ public class Particpant
             Console.WriteLine(users.FindIndex(x=>x.UserName == singleUser.UserName));
         }
 
-      /* Commented on 14 december 2021
-        
-        // This will remove user 1012 even though the UserName is different,
-        // because the Equals method only checks UserId for equality.
-        //users.Remove(new User() { UserId = 1012, UserName = "Malin" });
-
-     */
     }
 }
