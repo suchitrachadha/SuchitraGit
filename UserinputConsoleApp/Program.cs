@@ -166,6 +166,12 @@ static class Program
             else return Equals(objAsUser);
         }
 
+        public override int GetHashCode()
+        {
+            return int.Parse(UserId);
+        }
+
+
      
        public string generateID()
       {

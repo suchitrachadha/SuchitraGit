@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\suchi\\mylocalproject\\UserinputConsoleApp\\UserinputConsoleApp.csproj": {}
+    "c:\\Users\\suchi\\mylocalproject\\UserinputConsoleApp\\UserinputConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\suchi\\mylocalproject\\UserinputConsoleApp\\UserinputConsoleApp.csproj": {
+    "c:\\Users\\suchi\\mylocalproject\\UserinputConsoleApp\\UserinputConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\suchi\\mylocalproject\\UserinputConsoleApp\\UserinputConsoleApp.csproj",
+        "projectUniqueName": "c:\\Users\\suchi\\mylocalproject\\UserinputConsoleApp\\UserinputConsoleApp.csproj",
         "projectName": "UserinputConsoleApp",
-        "projectPath": "C:\\Users\\suchi\\mylocalproject\\UserinputConsoleApp\\UserinputConsoleApp.csproj",
+        "projectPath": "c:\\Users\\suchi\\mylocalproject\\UserinputConsoleApp\\UserinputConsoleApp.csproj",
         "packagesPath": "C:\\Users\\suchi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\suchi\\mylocalproject\\UserinputConsoleApp\\obj\\",
+        "outputPath": "c:\\Users\\suchi\\mylocalproject\\UserinputConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\suchi\\AppData\\Roaming\\NuGet\\NuGet.Config"
