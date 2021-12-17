@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading;
 
 
+
 /****************************************************************************
 ***15 December 2021*** Author: Suchitra 
 Program created to provide Menu for different Operations Like
@@ -14,6 +15,9 @@ Program created to provide Menu for different Operations Like
 ***16 December 2021*** Author: Suchitra 
 -Modified to do validations and handle exceptions.
 -Modified to include writing the user list to text file.
+
+***17 December 2021*** Author: Suchitra
+-Modified to remove hardcoding of file name and generating unique filename.
 /***************************************************************************/
 
 static class Program
@@ -154,15 +158,18 @@ static class Program
                         if (saveFile.ToUpper() == "Y") 
                         {
                           int varTemp = 0;
+                          var timeStamp = DateTime.Now.ToFileTime();
+                          
                           foreach (User singleUser in users)
                           {
                             if(varTemp == 0)
-                            System.IO.File.WriteAllText("SuchitraFile.txt", (singleUser.ToString() + Environment.NewLine));
+                        
+                            System.IO.File.WriteAllText(timeStamp + ".txt", (singleUser.ToString() + Environment.NewLine));
                             else
-                            System.IO.File.AppendAllText("SuchitraFile.txt", (singleUser.ToString() + Environment.NewLine));
+                            System.IO.File.AppendAllText(timeStamp + ".txt", (singleUser.ToString() + Environment.NewLine));
                             varTemp = varTemp + 1;
                           }
-                          Console.WriteLine("User List has been saved in a file.");
+                          Console.WriteLine("User List has been saved in file " + timeStamp + ".txt");
                         }
                       }
                       catch (Exception ex)

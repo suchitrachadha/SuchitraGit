@@ -1,6 +1,0 @@
-First Name Sai  Last Name: baba  Email Address:Sai@baba.com  Goal:Protector  UserId:8a78aa5e35de4b6bac6b38bd33b7d20a
-First Name Sunil  Last Name: Chadha  Email Address:sunil@yahoo.com  Goal:PO  UserId:4d75567e646d490890aea5f3fb7c76bd
-First Name Suchitra  Last Name: Chadha  Email Address:suchitra@gmail.com  Goal:Pedagog  UserId:518929f87683431a8f08c400bc33f893
-First Name Jay  Last Name: Chadha  Email Address:Jay@skola.se  Goal:Student  UserId:6a636517fa744b76a3723d280a2ee791
-First Name Neeharika  Last Name: Chadha  Email Address:neeharika@skola.se  Goal:Student  UserId:952526bf677e481e8b1e8a6483c882c3
-First Name sdfds  Last Name: sdfds  Email Address:sdfds  Goal:dsf  UserId:d3a680a13d804f8eaf80a27b6c1ba3d6
