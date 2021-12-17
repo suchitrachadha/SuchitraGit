@@ -10,7 +10,7 @@ using System.Threading;
 /****************************************************************************
 ***15 December 2021*** Author: Suchitra 
 Program created to provide Menu for different Operations Like
-1. Add User 2. Remove User 3. Show/Save Users  4. Insert User 5. Exit
+1. Add User 2. Remove User 3. Show/Save Users  4. Insert User 5. Generate Discount code 6. Exit
 
 ***16 December 2021*** Author: Suchitra 
 -Modified to do validations and handle exceptions.
@@ -18,6 +18,7 @@ Program created to provide Menu for different Operations Like
 
 ***17 December 2021*** Author: Suchitra
 -Modified to remove hardcoding of file name and generating unique filename.
+-Modified to include Generate Discount Code in the menu and functionality.
 /***************************************************************************/
 
 static class Program
@@ -30,7 +31,7 @@ static class Program
      int choice = 0;
 
            
-      while (choice != 5)
+      while (choice != 6)
       {
           try
         {
@@ -41,7 +42,8 @@ static class Program
             Console.WriteLine("2. Remove User");
             Console.WriteLine("3. Show/Save Users");
             Console.WriteLine("4. Insert User");
-            Console.WriteLine("5. Exit");
+            Console.WriteLine("5. Generate a discount code");
+            Console.WriteLine("6. Exit");
          
 
             choice = int.Parse(Console.ReadLine());
@@ -243,12 +245,18 @@ static class Program
                break;
 
               case 5:
+               // Generating a unique discount code
+               string uniqueCode = Convert.ToBase64String(Guid.NewGuid().ToByteArray());
+               Console.WriteLine("**Use discount code!** " + " CHRISTMAS 2022 " + uniqueCode);
+               break;
+
+              case 6:
                   
                 break;
               
               default:
               
-                Console.WriteLine("Sorry, invalid selection");
+                Console.WriteLine("Sorry, invalid selection. Please contact the system administrator.");
                  break;
 
          } // switch
