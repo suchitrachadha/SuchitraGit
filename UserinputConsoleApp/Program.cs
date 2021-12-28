@@ -165,7 +165,7 @@ static class Program
                           foreach (User singleUser in users)
                           {
                             if(varTemp == 0)
-                        
+                            
                             System.IO.File.WriteAllText(timeStamp + ".txt", (singleUser.ToString() + Environment.NewLine));
                             else
                             System.IO.File.AppendAllText(timeStamp + ".txt", (singleUser.ToString() + Environment.NewLine));

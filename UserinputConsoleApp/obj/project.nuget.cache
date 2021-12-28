@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "f21dEjAsB+Um744rT6K9KS6R2WQt7SYaQlRVwAydM9PFO1dCn0JGwE6MwtynJkC2wedxWIW/Oe0eY51Vviai9A==",
+  "dgSpecHash": "os9o336E7g0mWHv2F9EqAxHqOs86Y3ZJuKTu1wkmxKefZBvaRqO4dpj9KkkYgVpDMEiTZCNu743wu4p8dcecBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\suchi\\mylocalproject\\UserinputConsoleApp\\UserinputConsoleApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "c:\\Users\\suchi\\mylocalproject\\UserinputConsoleApp\\UserinputConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\suchi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,15 @@
+C:\Users\suchi\mylocalproject\ProductList\obj\Debug\net6.0\ProductList.csproj.AssemblyReference.cache
+C:\Users\suchi\mylocalproject\ProductList\obj\Debug\net6.0\ProductList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suchi\mylocalproject\ProductList\obj\Debug\net6.0\ProductList.AssemblyInfoInputs.cache
+C:\Users\suchi\mylocalproject\ProductList\obj\Debug\net6.0\ProductList.AssemblyInfo.cs
+C:\Users\suchi\mylocalproject\ProductList\obj\Debug\net6.0\ProductList.csproj.CoreCompileInputs.cache
+C:\Users\suchi\mylocalproject\ProductList\bin\Debug\net6.0\ProductList.deps.json
+C:\Users\suchi\mylocalproject\ProductList\bin\Debug\net6.0\ProductList.dll
+C:\Users\suchi\mylocalproject\ProductList\bin\Debug\net6.0\ref\ProductList.dll
+C:\Users\suchi\mylocalproject\ProductList\bin\Debug\net6.0\ProductList.pdb
+C:\Users\suchi\mylocalproject\ProductList\obj\Debug\net6.0\ProductList.dll
+C:\Users\suchi\mylocalproject\ProductList\obj\Debug\net6.0\ref\ProductList.dll
+C:\Users\suchi\mylocalproject\ProductList\obj\Debug\net6.0\ProductList.pdb
+C:\Users\suchi\mylocalproject\ProductList\bin\Debug\net6.0\ProductList.exe
+C:\Users\suchi\mylocalproject\ProductList\bin\Debug\net6.0\ProductList.runtimeconfig.json
+C:\Users\suchi\mylocalproject\ProductList\obj\Debug\net6.0\ProductList.genruntimeconfig.cache
