@@ -1,0 +1,24 @@
+﻿<Window x:Class="NewUserWPFApp.Handlers.ShowSaveUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewUserWPFApp.Handlers"
+        mc:Ignorable="d"
+        Title="ShowSaveUser" Height="450" Width="1500">
+    <DataGrid AutoGenerateColumns="False" Name="ShowSaveDataGrid">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="User Position" TextElement.Foreground="AliceBlue"  Foreground="BlueViolet"  Binding="{Binding UserPosition}" Width="100" FontWeight="Bold" IsReadOnly="True" />
+            <DataGridTextColumn Header="User ID" TextElement.Foreground="AliceBlue"  Foreground="BlueViolet"  Binding="{Binding UserId}" Width="300" FontWeight="Bold" IsReadOnly="True" />
+            <DataGridTextColumn Header="First Name" Foreground="BlueViolet" Binding="{Binding FirstName}" Width="200" FontWeight="Bold" IsReadOnly="True" />
+            <DataGridTextColumn Header="Last Name" Foreground="BlueViolet" Binding="{Binding LastName}" Width="200" FontWeight="Bold" IsReadOnly="True" />
+            <DataGridTextColumn Header="Email Address" Foreground="BlueViolet" Binding="{Binding EmailAddress}" Width="200" FontWeight="Bold" IsReadOnly="True" />
+            <DataGridTextColumn Header="Goal Description" Foreground="BlueViolet" Binding="{Binding GoalDesc}" Width="*" FontWeight="Bold" IsReadOnly="True" />
+        </DataGrid.Columns>
+        <DataGrid.Resources>
+            <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" 
+                   Color="LightYellow"/>
+        </DataGrid.Resources>
+
+    </DataGrid>
+</Window>
