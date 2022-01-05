@@ -1,0 +1,4 @@
+Product Name Arla  Product Description: Svensk Milk  Product Price:31  Product Category:Diary  ProductId:10e5f621-36c6-4626-8f90-26869f8271da
+Product Name Yoggi  Product Description: Svensk Yoghurt  Product Price:21  Product Category:Diary  ProductId:61f13c13-db6f-4d7d-b7d3-6740a6c4935e
+Product Name Kellogs  Product Description: Meusli  Product Price:21  Product Category:Cereals  ProductId:d3518aae-3a22-4e1a-8619-3121731a5ca2
+Product Name Almonds  Product Description: Almond Milk  Product Price:21  Product Category:Diary  ProductId:5a797092-6961-4d19-9884-739d76e21bef

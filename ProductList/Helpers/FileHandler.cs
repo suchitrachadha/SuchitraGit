@@ -14,8 +14,6 @@ namespace ProductList.Helpers
 {
     public class FileHandler
     {
-        //public static List<ProductList.Model.ProductList.Product> products = new List<Product>();
-
         public static string WriteToFile()
         {
             Console.WriteLine("Please enter the file path you want to save the file in, ex: C:\\UserTemp");

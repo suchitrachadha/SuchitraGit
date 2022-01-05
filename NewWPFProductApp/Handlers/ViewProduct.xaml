@@ -1,0 +1,54 @@
+﻿<Window x:Class="NewWPFProductApp.Handlers.ViewProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewWPFProductApp.Handlers"
+        mc:Ignorable="d"
+        Title="ViewProduct" Height="500" Width="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Label Width="500" Height="50" FontSize="14" FontWeight="Bold" HorizontalAlignment="Left" Grid.Column="0" Grid.Row="0">
+            Enter Product ID:
+        </Label>
+        <TextBox Grid.Column="1" Name="UIViewProductId" Height="30" Width="400" FontSize="14" FontWeight="Bold" Grid.Row="0">
+        </TextBox>
+        <Button Grid.Row="1" HorizontalAlignment="Center"
+          Name="ViewProductButton" Margin="0,2,0,2" Background="#FF55F710" Width="200" Click="ViewProductFromList">
+            View Product
+        </Button>
+
+
+        <Label Name="ViewProductIDLabel" FontSize="14" FontWeight="Bold" Grid.Row="3" Grid.Column="0" Visibility="Hidden" Foreground="DarkRed">Product ID:</Label>
+        <Label Name="ViewProductIDContent" FontSize="14" FontWeight="Bold" Grid.Row="3" Grid.Column="1" Visibility="Hidden" Foreground="DarkGreen"></Label>
+
+
+        <Label Name="ViewProductNameLabel" FontSize="14" FontWeight="Bold" Grid.Row="4" Grid.Column="0" Visibility="Hidden" Foreground="DarkRed">Product Name:</Label>
+        <Label Name="ViewProductName" FontSize="14" FontWeight="Bold" Grid.Row="4" Grid.Column="1" Visibility="Hidden" Foreground="DarkGreen"></Label>
+
+        <Label Name="ViewProductDescriptionLabel" FontSize="14" FontWeight="Bold" Grid.Row="5" Grid.Column="0" Visibility="Hidden" Foreground="DarkRed">Product Description:</Label>
+        <TextBlock Name="ViewProductDescription" FontSize="14" FontWeight="Bold" Grid.Row="5" Grid.Column="1" Visibility="Hidden" Foreground="DarkGreen" Height="60" TextWrapping="Wrap"></TextBlock>
+
+        <Label Name="ViewProductCategoryLabel" FontSize="14" FontWeight="Bold" Grid.Row="6" Grid.Column="0" Visibility="Hidden" Foreground="DarkRed">Product Category:</Label>
+        <Label Name="ViewProductCategory" FontSize="14" FontWeight="Bold" Grid.Row="6" Grid.Column="1" Visibility="Hidden" Foreground="DarkGreen"></Label>
+
+        <Label Name="ViewProductPriceLabel" FontSize="14" FontWeight="Bold" Grid.Row="7" Grid.Column="0" Visibility="Hidden" Foreground="DarkRed">Product Price(SEK): </Label>
+        <Label Name="ViewProductPrice" FontSize="14" FontWeight="Bold" Grid.Row="7" Grid.Column="1" Visibility="Hidden" Foreground="DarkGreen"></Label>
+
+    </Grid>
+</Window>

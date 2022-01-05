@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Handlers\AddProduct.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Handlers\FileSave.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Handlers\RemoveProduct.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Handlers\ShowSaveProduct.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Handlers\ViewProduct.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Handlers\ViewProductByCategory.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Handlers\AddProduct.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Handlers\FileSave.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Handlers\RemoveProduct.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Handlers\ShowSaveProduct.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Handlers\ViewProduct.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Handlers\ViewProductByCategory.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

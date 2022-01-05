@@ -18,8 +18,6 @@ namespace ProductList.Helpers
     {
         public static int Show_Menu()
         {
-            
-            //Console.WriteLine("Menu Choice: " + menuChoice);
             Console.WriteLine("Menu:");
             Console.WriteLine("Please select any option");
             Console.WriteLine("1: Create Product");
